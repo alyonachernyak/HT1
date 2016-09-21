@@ -25,8 +25,11 @@ namespace HT1
                 str = prog.LineBreak1(str);
                 str = prog.LineBreak2(str);
                 str = prog.LineBreak3(str);
-                Console.WriteLine(DateTime.Now.ToString() + " " + str);
+                Console.WriteLine(DateTime.Now.ToString() + " " + str);      
+                Console.SetCursorPosition(0, Console.CursorTop - 1);
+                prog.ClearCurrentConsoleLine();
             }
+
             if (ConfigurationManager.AppSettings["config"].Equals("txt"))
             {
                 string path = Console.ReadLine();
@@ -37,6 +40,14 @@ namespace HT1
                 else
                 {
                     string str = System.IO.File.ReadAllText(path);
+
+                    str = prog.ChangeAllCapitalLettersToSmallLetters(str);
+                    str = prog.LineBreak1(str);
+                    str = prog.LineBreak2(str);
+                    str = prog.LineBreak3(str);
+                    Console.WriteLine(DateTime.Now.ToString() + " " + str);
+                    Console.SetCursorPosition(0, Console.CursorTop - 1);
+                    prog.ClearCurrentConsoleLine();
                 }                
             }
         }
@@ -65,6 +76,14 @@ namespace HT1
         public string LineBreak3(string str)
         {
             return str.Replace("?", "?\n" + DateTime.Now.ToString());
+        }
+
+        public void ClearCurrentConsoleLine()
+        {
+            int currentLineCursor = Console.CursorTop;
+            Console.SetCursorPosition(0, Console.CursorTop);
+            Console.Write(new string(' ', Console.WindowWidth));
+            Console.SetCursorPosition(0, currentLineCursor);
         }
     }
 }

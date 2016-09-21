@@ -4,3 +4,9 @@ c:\users\elena_tcherniak\documents\visual studio 2015\Projects\Solution\HT1\bin\
 c:\users\elena_tcherniak\documents\visual studio 2015\Projects\Solution\HT1\obj\Debug\Solution.csprojResolveAssemblyReference.cache
 c:\users\elena_tcherniak\documents\visual studio 2015\Projects\Solution\HT1\obj\Debug\HT1.exe
 c:\users\elena_tcherniak\documents\visual studio 2015\Projects\Solution\HT1\obj\Debug\HT1.pdb
+C:\Users\Elena_Tcherniak\Documents\VisualStudio2015\Projects\Solution\HT1\bin\Debug\HT1.exe.config
+C:\Users\Elena_Tcherniak\Documents\VisualStudio2015\Projects\Solution\HT1\obj\Debug\HT1.exe
+C:\Users\Elena_Tcherniak\Documents\VisualStudio2015\Projects\Solution\HT1\obj\Debug\HT1.pdb
+C:\Users\Elena_Tcherniak\Documents\VisualStudio2015\Projects\Solution\HT1\bin\Debug\HT1.exe
+C:\Users\Elena_Tcherniak\Documents\VisualStudio2015\Projects\Solution\HT1\bin\Debug\HT1.pdb
+C:\Users\Elena_Tcherniak\Documents\VisualStudio2015\Projects\Solution\HT1\obj\Debug\Solution.csprojResolveAssemblyReference.cache
